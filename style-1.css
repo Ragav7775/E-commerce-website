@@ -1022,7 +1022,7 @@
     width: 90%;
     border-radius: 10px;
 }
-/*-------------------------advertisement-container-1 is over--------------------*/
+/*-------------------------Advertisement container 1 is over--------------------*/
 .categories-container{
     position: relative;
     height: 300px;
@@ -1121,7 +1121,7 @@
     margin: 0 10px;
     border-radius: 10px;
 }
-/*-----------------------------Neweggs container is over-------------------------*/
+/*-----------------------------Newegg container is over-------------------------*/
 .whatsnew-container{
     position: relative;
     height: 600px;
@@ -1224,6 +1224,147 @@
     margin:0 10px 0 10px;
     border-radius:10px;
 }
+/*-----------------------------Advertisement container 2 is over here--------------------------*/
+.total-product-container-title{
+    position: relative;
+    display: grid;
+    place-items: center;
+    justify-content: left;
+    height: 100px;
+    margin-top: 50px;
+    background-color:#F2F2F2;
+}
+.total-product-container{
+    position: relative;
+    height: 5000px;
+    width: 100%;
+    background-color:#F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-container{
+    height: 400px;
+    width: 275px;
+    background-color:aquamarine;
+    margin: 10px;
+    border-radius:10px;
+    overflow: hidden;
+}
+.total-product-container .product-container #FantasTech-3-column-1, #FantasTech-3-column-2, #FantasTech-3-column-3, #FantasTech-3-column-4{
+    position: absolute;
+    width: 150px;
+    left: 10px;
+    color: white;
+    /*background-image: linear-gradient(45deg, rgb(0, 106, 192) 0%, rgb(14, 117, 155) 59%, rgb(206, 82, 20) 100%) !important;*/
+    background-color:#1946B8;
+    text-align: center;
+    transform: skewX(-10deg);
+    border-radius: 4px 0;
+    z-index: 1;
+}
+.total-product-container .product-container #FantasTech-3-column-2{
+    left: 305px;
+}
+.total-product-container .product-container #FantasTech-3-column-3{
+    left: 600px;
+}
+.total-product-container .product-container #FantasTech-3-column-4{
+    left: 895px;
+}
+.total-product-container .product-container #product-image{
+    position: absolute;
+}
+.total-product-container .product-container .egg-rating-logo-product{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 100%;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.total-product-container .product-container .egg-rating-logo-product img{
+    width: 13px;
+    margin-right: 2px;
+}
+.total-product-container .product-container a{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color:#000;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+}
+.total-product-container .product-container dd{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 75px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    transform: skewX(-15deg);
+    border-radius: 4px 0;
+    color: white;
+}
+.total-product-container .product-container dl{
+    position: relative;
+    top: -5px;
+    left: 100px;
+    width: 120px;
+    background-color: rgb(255, 119, 0);
+    text-align: center;
+    transform: skewX(-15deg);
+    border-radius: 4px 0;
+    color: #000;
+}
+.total-product-container .product-container span {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.total-product-container .product-container span sub {
+    font-size: small;
+}
+.total-product-container .product-container p{
+    position: relative;
+    left: 20px;
+    margin-top: 15px;
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(0, 8, 242);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

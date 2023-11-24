@@ -203,21 +203,3 @@ function hideMenu() {
 }
 
 /////-------------------------------------Menu-Container-Show--------------------------------------//
-
-
-
-
-
-const video = document.getElementById('youtube-video');
-  video.addEventListener('click', function() {
-    if (video.paused) {
-      video.play();
-    } else {
-      video.pause();
-    }
-  });
-
-
-
-
-
