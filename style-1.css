@@ -1236,7 +1236,7 @@
 }
 .total-product-container{
     position: relative;
-    height: 5000px;
+    height: 4250px;
     width: 100%;
     background-color:#F2F2F2;
     display: flex;
@@ -1245,18 +1245,22 @@
 .product-container{
     height: 400px;
     width: 275px;
-    background-color:aquamarine;
+    background-color:white;
     margin: 10px;
     border-radius:10px;
     overflow: hidden;
+}
+#product-7,#product-10,#product-14,#product-16,#product-18,#product-19,#product-20,
+#product-21,#product-24,#product-26,#product-27,#product-28,#product-29,#product-30,
+#product-32,#product-33,#product-34{
+    height: 380px;
 }
 .total-product-container .product-container #FantasTech-3-column-1, #FantasTech-3-column-2, #FantasTech-3-column-3, #FantasTech-3-column-4{
     position: absolute;
     width: 150px;
     left: 10px;
     color: white;
-    /*background-image: linear-gradient(45deg, rgb(0, 106, 192) 0%, rgb(14, 117, 155) 59%, rgb(206, 82, 20) 100%) !important;*/
-    background-color:#1946B8;
+    background-image: linear-gradient(45deg, rgb(0, 106, 192) 0%, rgb(143, 35, 198) 20%,rgb(198, 35, 195) 40%,rgb(198, 35, 127) 60%,rgb(198, 35, 73) 80%, rgb(206, 20, 42) 100%) !important;
     text-align: center;
     transform: skewX(-10deg);
     border-radius: 4px 0;
@@ -1317,18 +1321,36 @@
     border-radius: 4px 0;
     color: #000;
 }
+#product-17 dl{
+    width: 150px;
+}
+#product-24 dl, #product-26 dl, #product-34 dl{
+    top: 15px;
+    left: 20px;
+}
 .total-product-container .product-container span {
     position: relative;
-    top: 10px;
+    top: 15px;
     left: 20px;
+}
+#product-1 span,#product-2 span,#product-3 span,#product-5 span,#product-6 span,#product-8 span,
+#product-9 span,#product-11 span,#product-12 span,#product-15 span,#product-17 span,#product-21,
+#product-23 span,#product-29 span{
+    top: 2px;
 }
 .total-product-container .product-container span sub {
     font-size: small;
 }
+.total-product-container .product-container span h5{
+    position: relative;
+    top: -20px;
+    left: 100px;
+    text-decoration: line-through;
+}
 .total-product-container .product-container p{
     position: relative;
     left: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: medium;
     font-weight: 700;
     color: rgb(0, 8, 242);
@@ -1336,17 +1358,57 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*****************************************Total product container is over*******************************/
+.advertisement-container-3 {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    margin: 50px 0 50px 0;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+}
+.advertisement-container-3 #advertisement-container-3-images {
+    height: 80px;
+    width: 95%;
+    display: inline-flex;
+}
+.advertisement-container-3 img {
+    width: 60%;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+}
+/*-----------------------------------Advertisement container-3 is over--------------------------------*/
+.featured-brands{
+    position: relative;
+    height: 130px;
+    left: 30px;
+    width: 95%;
+    background-color:#f3f3f3;
+    border-radius:20px;
+    border:1px solid #000;
+}
+.featured-brands h1{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: x-large;
+}
+#featured-brands{
+    position: absolute;
+    top: 40px;
+    left: 270px;
+    height: 90px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(12, max-content);
+    justify-content: center;
+    overflow: hidden;
+}
+#featured-brands img{
+    height: 60px;
+}
+/*------------------------------------------Feature Brands container is over---------------------------*/
 
 
 
