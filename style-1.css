@@ -1224,19 +1224,29 @@
     margin:0 10px 0 10px;
     border-radius:10px;
 }
-/*-----------------------------Advertisement container 2 is over here--------------------------*/
-.total-product-container-title{
+/*--------------------------------Advertisement container 2 is over here------------------------------*/
+.total-product-container-title, .trending-container-title{
     position: relative;
-    display: grid;
-    place-items: center;
-    justify-content: left;
     height: 100px;
     margin-top: 50px;
     background-color:#F2F2F2;
 }
+.total-product-container-title h1,.trending-container-title h1{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
 .total-product-container{
     position: relative;
     height: 4250px;
+    width: 100%;
+    background-color:#F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.trending-container{
+    position: relative;
+    height: 450px;
     width: 100%;
     background-color:#F2F2F2;
     display: flex;
@@ -1255,7 +1265,8 @@
 #product-32,#product-33,#product-34{
     height: 380px;
 }
-.total-product-container .product-container #FantasTech-3-column-1, #FantasTech-3-column-2, #FantasTech-3-column-3, #FantasTech-3-column-4{
+.total-product-container .product-container #FantasTech-3-column-1, #FantasTech-3-column-2, #FantasTech-3-column-3, #FantasTech-3-column-4,
+.trending-container .product-container #FantasTech-3-column-1,#FantasTech-3-column-2,#FantasTech-3-column-3,#FantasTech-3-column-4{
     position: absolute;
     width: 150px;
     left: 10px;
@@ -1266,19 +1277,23 @@
     border-radius: 4px 0;
     z-index: 1;
 }
-.total-product-container .product-container #FantasTech-3-column-2{
+.total-product-container .product-container #FantasTech-3-column-2,
+.trending-container .product-container #FantasTech-3-column-2{
     left: 305px;
 }
-.total-product-container .product-container #FantasTech-3-column-3{
+.total-product-container .product-container #FantasTech-3-column-3,
+.trending-container .product-container #FantasTech-3-column-3{
     left: 600px;
 }
-.total-product-container .product-container #FantasTech-3-column-4{
+.total-product-container .product-container #FantasTech-3-column-4,
+.trending-container .product-container #FantasTech-3-column-4{
     left: 895px;
 }
-.total-product-container .product-container #product-image{
-    position: absolute;
+#product-38 #product-image {
+    margin: 40px 0 20px 0;
 }
-.total-product-container .product-container .egg-rating-logo-product{
+.total-product-container .product-container .egg-rating-logo-product,
+.trending-container .product-container .egg-rating-logo-product{
     position: relative;
     top: 5px;
     left: 20px;
@@ -1286,11 +1301,13 @@
     display: inline-flex;
     vertical-align: middle;
 }
-.total-product-container .product-container .egg-rating-logo-product img{
+.total-product-container .product-container .egg-rating-logo-product img,
+.trending-container .product-container .egg-rating-logo-product img{
     width: 13px;
     margin-right: 2px;
 }
-.total-product-container .product-container a{
+.total-product-container .product-container a,
+.trending-container .product-container a{
     position: relative;
     top: 10px;
     left: 20px;
@@ -1299,7 +1316,8 @@
     font-weight: 600;
     font-size: 16px;
 }
-.total-product-container .product-container dd{
+.total-product-container .product-container dd,
+.trending-container .product-container dd{
     position: relative;
     top: 15px;
     left: 20px;
@@ -1310,7 +1328,8 @@
     border-radius: 4px 0;
     color: white;
 }
-.total-product-container .product-container dl{
+.total-product-container .product-container dl,
+.trending-container .product-container dl{
     position: relative;
     top: -5px;
     left: 100px;
@@ -1328,7 +1347,8 @@
     top: 15px;
     left: 20px;
 }
-.total-product-container .product-container span {
+.total-product-container .product-container span,
+.trending-container .product-container span {
     position: relative;
     top: 15px;
     left: 20px;
@@ -1338,16 +1358,19 @@
 #product-23 span,#product-29 span{
     top: 2px;
 }
-.total-product-container .product-container span sub {
+.total-product-container .product-container span sub,
+.trending-container .product-container span sub {
     font-size: small;
 }
-.total-product-container .product-container span h5{
+.total-product-container .product-container span h5,
+.trending-container .product-container span h5{
     position: relative;
     top: -20px;
     left: 100px;
     text-decoration: line-through;
 }
-.total-product-container .product-container p{
+.total-product-container .product-container p,
+.trending-container .product-container p{
     position: relative;
     left: 20px;
     margin-top: 10px;
@@ -1356,9 +1379,8 @@
     color: rgb(0, 8, 242);
 }
 
+/*************************Total product container & Trending product Container is over*****************/
 
-
-/*****************************************Total product container is over*******************************/
 .advertisement-container-3 {
     position: relative;
     height: 100px;
@@ -1384,15 +1406,15 @@
     height: 130px;
     left: 30px;
     width: 95%;
-    background-color:#f3f3f3;
     border-radius:20px;
     border:1px solid #000;
 }
-.featured-brands h1{
+.featured-brands p{
     position: absolute;
     top: 60px;
     left: 20px;
     font-size: x-large;
+    font-weight:bold;
 }
 #featured-brands{
     position: absolute;
@@ -1408,7 +1430,56 @@
 #featured-brands img{
     height: 60px;
 }
-/*------------------------------------------Feature Brands container is over---------------------------*/
+/*-------------------------------------Feature Brands container is over------------------------------*/
+.popular-product-container{
+    position: relative;
+    left: 30px;
+    height: 300px;
+    width: 95%;
+    background-color:#1946B8;
+}
+#popular-product-container-row-1,#popular-product-container-row-2,#popular-product-container-row-3,#popular-product-container-row-4{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:bisque;
+}
+#popular-product-container-row-1 a,#popular-product-container-row-2 a,#popular-product-container-row-3 a,#popular-product-container-row-4 a{
+    position: relative;
+    width: 10%;
+    background-color:brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
