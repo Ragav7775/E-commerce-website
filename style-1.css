@@ -1431,28 +1431,77 @@
     height: 60px;
 }
 /*-------------------------------------Feature Brands container is over------------------------------*/
+.advertisement-container-4{
+    position: relative;
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.advertisement-container-4 img{
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+}
+/*------------------------------------Advertisement container-4 is over-------------------------------*/
 .popular-product-container{
     position: relative;
+    top: 50px;
     left: 30px;
-    height: 300px;
+    height: 250px;
     width: 95%;
-    background-color:#1946B8;
+    padding: 10px 0 10px 0;
+    border-radius:10px;
+    border:1px solid #0b152f;
+}
+.popular-product-container-title{
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+.popular-product-container-title h1{
+    position: absolute;
+    left: 20px;
 }
 #popular-product-container-row-1,#popular-product-container-row-2,#popular-product-container-row-3,#popular-product-container-row-4{
     position: relative;
+    height: 40px;
     display: flex;
     flex-wrap: wrap;
-    background-color:bisque;
+    margin-top: 10px;
 }
 #popular-product-container-row-1 a,#popular-product-container-row-2 a,#popular-product-container-row-3 a,#popular-product-container-row-4 a{
     position: relative;
-    width: 10%;
-    background-color:brown;
+    background-color:#d3dfff;
+    margin: 0 5px 0 5px;
+    border-radius:10px;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    color:#1946B8;
 }
-
-
-
-
+#popular-product-container-row-1 a{
+    width: 9%;
+}
+#popular-product-container-row-2 a{
+    width: 10%;
+}
+#popular-product-container-row-3 a{
+    width: 10%;
+}
+#popular-product-container-row-4 a{
+    width: 13.25%;
+}
+/*------------------------------------Popular Product is over---------------------------------------*/
+/*-----------------Footer starts here---------------*/
+footer{
+    position: relative;
+    top: 100px;
+    height: 350px;
+    width: 100%;
+    background-color:beige;
+}
 
 
 
