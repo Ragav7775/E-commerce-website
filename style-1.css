@@ -1498,62 +1498,44 @@
 footer{
     position: relative;
     top: 100px;
-    height: 350px;
+    height: 300px;
     width: 100%;
-    background-color:beige;
+    background-color:#07122d;
 }
+footer p{
+    position: relative;
+    top: 150px;
+    display: grid;
+    place-items: center;
+    font-size: medium;
+    font-weight: 700;
+    color:white;
+}
+.footer-icons{
+    position: relative;
+    top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
+.footer-icons img{
+    width: 40px;
+    margin: 0 10px 0 10px;
+    border-radius:50%;
+    background-color:white;
+}
+.footer-QR{
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    width: 20%;
+}
+.footer-QR a{
+    position: relative;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+}
+/**********************************************Footer is over***************************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*****************************************OVERALL WEBSITE IS OVER****************************************/
