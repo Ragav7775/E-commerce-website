@@ -439,7 +439,7 @@
     background-color: rgba(184, 180, 180, 0.907);
     top: 151px;
     left: 290px;
-    display: inline-flex;
+    display: none;
     overflow: hidden;
 }
 .menu-container-listhover ul li:hover{
@@ -1005,10 +1005,19 @@
 .today-deal-container-row-1 video{
     position: relative;
     display: block;
-    bottom: 175px;
-    left: 55%;
+    bottom: 140px;
+    left: 51%;
     height: 90%;
-    width: 40%;
+    width: 50%;
+    z-index: 11;
+}
+.today-deal-container-row-2 video{
+    position: relative;
+    display: block;
+    bottom: -25px;
+    left: 50px;
+    width: 75%;
+    z-index: 11;
 }
 /*----------------------Second row in today deals-------------------*/
 .advertisement-container-1{
@@ -1377,6 +1386,19 @@
     font-size: medium;
     font-weight: 700;
     color: rgb(0, 8, 242);
+}
+#product-4,#product-13,#product-22{
+    border: 5px dashed darkblue;
+    border-right: 0;
+    height: 380px;
+}
+#product-4 img,#product-13 img,#product-22 img {
+    object-fit: fill;
+    width: fit-content;
+    height: fit-content;
+}
+#product-4:hover,#product-13:hover,#product-22:hover{
+    cursor: pointer;
 }
 
 /*************************Total product container & Trending product Container is over*****************/

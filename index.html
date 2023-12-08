@@ -213,7 +213,7 @@
 
             <div class="menu-container">
                 <ul>
-                    <li onmouseover="showMenu(this)"><a href="#"> Components & Storage</a><span>&#10095;</span></li>
+                    <li onmouseover="showMenu()" onmouseleave="hideMenu()"><a href="#"> Components & Storage</a><span>&#10095;</span></li>
                     <li><a href="#"> Computer Systems</a><span>&#10095;</span></li>
                     <li><a href="#"> Computer Peripherals</a><span>&#10095;</span></li>
                     <li><a href="#"> Appliances</a><span>&#10095;</span></li>
@@ -233,7 +233,7 @@
 
 <!----------------------------------------Menu Bar is over----------------------------------------------->
             
-            <div class="menu-container-listhover" onmouseleave="hideMenu()">
+            <div class="menu-container-listhover" onmouseover="showMenu()" onmouseleave="hideMenu()">
                 <div class="menu-container-listhover-column-1" >
                     <div class="menu-container-listhover-column-1-components">Core Components</div>
                     <ul>
@@ -337,7 +337,7 @@
                         <span><h1>$399<sup>.00</sup></h1><h5>$449.00</h5></span>
                         <p><i>FREE SHIPPING</i></p>
                         <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
-                            <source src="videos/today-highlight-headset.mp4" type="video/mp4"></source>
+                            <source src="videos/todays-product-1-video.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="today-deal-container-product" id="item-2">
@@ -353,7 +353,7 @@
                         <span><h1>$999<sup>.99</sup></h1><h5>$1,029.99</h5></span>
                         <p><i>FREE SHIPPING</i></p>
                         <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
-                            <source src="videos/today-highlight-headset.mp4" type="video/mp4"></source>
+                            <source src="videos/todays-product-2-video.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
@@ -371,6 +371,9 @@
                         <dl>Promotion Deal</dl>
                         <span><h1>$239<sup>.99</sup></h1><h5>$259.99</h5></span>
                         <p><i>FREE SHIPPING</i></p>
+                        <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                            <source src="videos/todays-product-3-video.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="today-deal-container-product" id="item-4">
                         <div class="egg-rating-logo">
@@ -385,6 +388,9 @@
                         <dl>Promotion Deal</dl>
                         <span><h1>$199<sup>.00</sup></h1><h5>$289.00</h5></span>
                         <p><i>FREE SHIPPING</i></p>
+                        <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                            <source src="videos/todays-product-4-video.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </div>
@@ -403,6 +409,9 @@
                     <dl>Promotion Deal</dl>
                     <span><h1>$134<sup>.99</sup></h1><h5>$169.99</h5></span>
                     <p><i>FREE SHIPPING</i></p>
+                    <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                        <source src="videos/todays-product-5-video.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="today-deal-container-product" id="item-6">
                     <div id="FantasTech-2">FantasTech Deal</div>
@@ -418,6 +427,9 @@
                     <dl>Promotion Deal</dl>
                     <span><h1>$899<sup>.99</sup></h1><h5>$1,199.99</h5></span>
                     <p><i>FREE SHIPPING</i></p>
+                    <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                        <source src="videos/todays-product-6-video.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="today-deal-container-product" id="item-7">
                     <div id="FantasTech-2">FantasTech Deal</div>
@@ -433,6 +445,9 @@
                     <dl>Promotion Deal</dl>
                     <span><h1>$129<sup>.00</sup></h1><h5>$179.86</h5></span>
                     <p><i>FREE SHIPPING</i></p>
+                    <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                        <source src="videos/todays-product-7-video.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="today-deal-container-product" id="item-8">
                     <div id="FantasTech-2">FantasTech Deal</div>
@@ -443,18 +458,21 @@
                         <img src="images/NEGG.png">
                         <img src="images/NEGG.png">(56)
                     </div>
-                    <a href="#"><h3>Asus ROG 360 ARGB<br>CPU Liquid Cooler 3.5 Inch LCD...</h3></a>
+                    <a href="#"><h3>Asus ROG 360 ARGB<br>CPU Liquid Cooler LCD...</h3></a>
                     <dd>Save 26%</dd>
                     <dl>Promotion Deal</dl>
                     <span><h1>$347<sup>.77</sup></h1><h5>$399.99</h5></span>
                     <p><i>FREE SHIPPING</i></p>
+                    <video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                        <source src="videos/todays-product-8-video.mp4" type="video/mp4">
+                    </video> 
                 </div>
             </div>
-            <div class="today-deal-button">SEE ALL DEALS</div>
+            <a href="#" class="today-deal-button">SEE ALL DEALS</a>
         </div>
-<!------------------------Todays Deals over here---------------------------------------------->
+<!----------------------------------Todays Deals over here---------------------------------------------->
         <div class="advertisement-container-1"><img src="images/Advertisement-container-1-img.jpg"></div>
-<!------------------------Advertisement container 1 is over here------------------------------->
+<!----------------------------------Advertisement container 1 is over here------------------------------->
         <div class="categories-container">
             <p class="category-container-title">CATEGORIES</p>
             <div class="category-slideshow-container">
@@ -468,9 +486,12 @@
                 <div class="category-products-container" id="categories-item-8"><img src="images/categories-item-8-img.png"><a href="#">VR Headsets</a></div>
                 <div class="category-products-container" id="categories-item-9"><img src="images/categories-item-9-img.png"><a href="#">Office Furniture</a></div>
                 <div class="category-products-container" id="categories-item-10"><img src="images/categories-item-10-img.png"><a href="#">PCs & Monitors</a></div>
-                <a class="category-slideshow-container-prev" onclick="leftbutton(-1)">&#10094;</a>
-                <a class="category-slideshow-container-next" onclick="rightbutton(1)">&#10095;</a>
+                <!-- <a class="category-slideshow-container-prev" onclick="leftbutton(-1)">&#10094;</a>
+                <a class="category-slideshow-container-next" onclick="rightbutton(1)">&#10095;</a> -->
             </div>
+            <button aria-label="Previous" class="category-slideshow-container-prev">&#10094;</button>
+            <button aria-label="Next" class="category-slideshow-container-next">&#10095;</button>
+            <div role="tablist" class="category-slideshow-container-dots"></div>
         </div>
 <!-------------------------Categories is over here------------------------------------------->
         <div class="newegg-feature-container">
@@ -561,7 +582,7 @@
                 <span><h1>$134<sup>.00</sup></h1><h5>$199.00</h5></span>
                 <p><i>FREE SHIPPING</i></p>
             </div>
-            <div class="product-container" id="product-4"></div>
+            <div class="product-container" id="product-4"><img src="images/product-4-bg-img.PNG"></div>
             <div class="product-container" id="product-5">
                 <div id="FantasTech-3-column-1">FantasTech Deal</div>
                 <img id="product-image" src="images/product-5-img.jpg">
@@ -681,7 +702,7 @@
                 <span><h1>$109<sup>.99</sup></h1><h5>$129.99</h5></span>
                 <p><i>FREE SHIPPING</i></p>
             </div>
-            <div class="product-container" id="product-13"></div>
+            <div class="product-container" id="product-13"><img src="images/product-13-bg-img.PNG"></div>
             <div class="product-container" id="product-14">
                 <div id="FantasTech-3-column-2">FantasTech Deal</div>
                 <img id="product-image" src="images/product-14-img.jpg">
@@ -796,7 +817,7 @@
                 <span><h1>$99<sup>.99</sup></h1><h5>$134.99</h5></span>
                 <p><i>FREE SHIPPING</i></p>
             </div>
-            <div class="product-container" id="product-22"></div>
+            <div class="product-container" id="product-22"><img src="images/product-22-bg-img.PNG"></div>
             <div class="product-container" id="product-23">
                 <div id="FantasTech-3-column-3">FantasTech Deal</div>
                 <img id="product-image" src="images/product-23-img.jpg">
@@ -1112,7 +1133,7 @@
         </div>
 <!---------------------------------------Popular Product is over----------------------------------------->
         <footer>
-            <p>@2000-2023 Newegg Inc. All rights reserved.      Terms & Conditions   Privacy Policy   Cookie Preference</p>
+            <p>&copy;2000-2023 Newegg Inc. All rights reserved.      Terms & Conditions   Privacy Policy   Cookie Preference</p>
             <div class="footer-icons">
                 <span><img src="images/footer-facebook-img.png"></span>
                 <span><img src="images/footer-twitter-img.png"></span>
