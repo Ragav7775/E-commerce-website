@@ -250,9 +250,86 @@ function hideMenu() {
 // }
 
 
+// let slideIndex_2 = 0;
+// showSlide_2(slideIndex_2);
+
+// function changeSlide(n) {
+//   showSlide_2(slideIndex_2 += n);
+// }
+// function showSlide_2(n) {
+//   let slides_2 = document.querySelector(".category-products-container");
+//   if (n >= slides_2.length) { slideIndex_2 = 0; }
+//   if (n < 0) { slideIndex_2 = slides_2.length - 1; }
+//   for (let i = 0; i < slides_2.length; i++) {
+//     slides_2[i].style.display = "none";
+//   }
+//   slides_2[slideIndex_2].style.display = "block";
+// }
+
+
+// let currentIndex = 0;
+// const slides_3 = document.querySelector('.category-products');
+
+// function changeSlide(n) {
+//   const slidesWidth = document.querySelector('.category-products-container').offsetWidth;
+//   const maxIndex = document.querySelectorAll('.category-products-container').length;
+
+//   currentIndex = (currentIndex + n) % maxIndex;
+//   if (currentIndex < 0) {
+//     currentIndex = maxIndex - 1;
+//   }
+
+//   const position = -slidesWidth * currentIndex;
+//   slides_3.style.transform = `translateX(${position}px)`;
+// }
+
+
+// var slideIndex_2 = 1;
+// showSlides_2(slideIndex_2);
+// function plusSlides(n) {
+//   showSlides_2(slideIndex_2 += n);
+// }
+// function currentSlide_2(n) {
+//   showSlides_2(slideIndex_2 = n);
+// }
+// function showSlides_2(n) {
+//   var a;
+//   var slides_2 = document.getElementsByClassName("category-products-container");
+//   var dots_2 = document.getElementsByClassName("category-slideshow-container-dot");
+//   if (n > slides_2.length) {
+//     slideIndex_2 = 1;
+//   }
+//   if (n < 1) {
+//     slideIndex_2 = slides_2.length;
+//   }
+//   for (a = 0; a < slides_2.length; a++) {
+//     slides_2[a].style.display = "none";
+//   }
+//   for (a = 0; a < dots_2.length; a++) {
+//     dots_2[a].className = dots_2[a].className.replace(" active", "");
+//   }
+//   slides_2[slideIndex_2 - 1].style.display = "block";
+//   dots_2[slideIndex_2 - 1].className += " active";
+// }
 
 
 
 
+// var img = document.getElementById('features-img');
 
+// var slides=['featured-brand-img-1.gif','featured-brand-img-2.gif', 'featured-brand-img-3.gif','featured-brand-img-4.gif', 'featured-brand-img-5.gif', 'featured-brand-img-6.gif', 'featured-brand-img-7.gif','featured-brand-img-8.gif','featured-brand-img-9.gif','featured-brand-img-10.gif','featured-brand-img-11.gif','featured-brand-img-12.gif'];
 
+// var Start=0;
+
+// function slider(){
+//     if(Start<slides.length){
+//         Start=Start+1;
+//     }
+//     else{
+//         Start=1;
+//     }
+//     console.log(img);
+//     img.innerHTML = "<img src="+slides[Start-1]+">";
+   
+// }
+// setInterval(slider,2000);

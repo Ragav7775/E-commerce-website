@@ -1032,6 +1032,101 @@
     border-radius: 10px;
 }
 /*-------------------------Advertisement container 1 is over--------------------*/
+/* 
+.categories-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+.category-container-title {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 900;
+    color: midnightblue;
+    margin-top: 40px;
+}
+
+.category-slideshow-container {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.category-products {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-products-container {
+    flex: 0 0 auto;
+    width: 140px;
+    margin: 0 7px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.category-products-container:hover {
+    background-color: #E8E8E8;
+    cursor: pointer;
+}
+
+.category-products-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.category-slideshow-container-prev,
+.category-slideshow-container-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+
+.category-slideshow-container-prev {
+    left: 0;
+}
+
+.category-slideshow-container-next {
+    right: 0;
+}
+
+.category-slideshow-container-prev:hover,
+.category-slideshow-container-next:hover {
+    color: blue;
+    border: 2px solid blue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .categories-container{
     position: relative;
     height: 300px;
@@ -1052,10 +1147,11 @@
     top: 90px;
     left: 30px;
     height: 180px;
-    width: 95%;
-    display: grid;
-    grid-template-columns: repeat(10, max-content);
-    justify-content: center;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: inherit;
     overflow: hidden;
 }
 .category-products-container{
@@ -1069,7 +1165,7 @@
     transition: all 0.2s linear;
     cursor: pointer;
 }
-.category-products-container a{
+.category-products-container button{
     color:#000;
     display: flex;
     justify-content: center;
@@ -1098,7 +1194,7 @@
     color:blue;
     border:blue solid 2px;
     cursor: pointer;
-}
+} 
 /*--------------------------------Categories is over--------------------------*/
 .newegg-feature-container{
     position: relative;
